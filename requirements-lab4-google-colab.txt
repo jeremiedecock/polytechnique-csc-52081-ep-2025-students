@@ -1,0 +1,42 @@
+# This file lists all the dependencies that are required to run INF639 labs
+
+# To have more information about the format of this file, please refer to the
+# https://pip.pypa.io/en/stable/reference/requirements-file-format/
+
+
+# GYMNASIUM ###################################################################
+
+gymnasium[classic-control]~=1.0.0           # Classic control environments only
+
+
+# REQUIRED DEPENDENCIES #######################################################
+
+# imageio           # required to visualize environments as GIF images within the notebook
+# ipywidgets        # required for tqdm
+jupyterlab~=4.3.4
+matplotlib~=3.10.0
+numpy~=2.2.2
+pandas~=2.2.3
+# pyvirtualdisplay  # required for rendering in a headless environment
+# scipy
+seaborn~=0.13.2
+# tqdm
+
+
+# OPTIONAL DEPENDENCIES #######################################################
+
+# aim
+# moviepy      # Required by the "gym.wrappers.RecordVideo" wrapper
+# optuna
+# optuna-dashboard
+# tensorboard
+# wandb
+# Ray/rllib
+# Ray/tune
+
+
+# USEFUL TOOLS ################################################################
+
+# jupytext          # To convert Jupyter Notebooks to Python scripts
+# mypy              # For static type checking
+# ruff              # For code formatting and linting
