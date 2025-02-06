@@ -16,5 +16,6 @@ gymnasium[other]~=1.0.0           # "Toy text" environments only
 # matplotlib
 # numpy
 # pandas
+# pygame
 # seaborn
 # tqdm

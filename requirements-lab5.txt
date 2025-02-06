@@ -16,6 +16,7 @@ jupyterlab
 matplotlib
 numpy
 pandas
+pygame
 seaborn
 tqdm
 
