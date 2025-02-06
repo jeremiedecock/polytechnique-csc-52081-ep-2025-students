@@ -1,0 +1,27 @@
+# This file lists all the dependencies that are required to run the 5th lab
+
+# To have more information about the format of this file, please refer to the
+# https://pip.pypa.io/en/stable/reference/requirements-file-format/
+
+
+# GYMNASIUM ###################################################################
+
+gymnasium[other]~=1.0.0           # "Toy text" environments only
+
+
+# REQUIRED DEPENDENCIES #######################################################
+
+ipywidgets        # required for tqdm
+jupyterlab
+matplotlib
+numpy
+pandas
+seaborn
+tqdm
+
+
+# USEFUL TOOLS ################################################################
+
+# jupytext          # To convert Jupyter Notebooks to Python scripts
+# mypy              # For static type checking
+# ruff              # For code formatting and linting
