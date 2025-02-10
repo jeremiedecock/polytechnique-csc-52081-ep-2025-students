@@ -1,4 +1,4 @@
-# This file lists all the dependencies that are required to run the 5th lab
+# This file lists all the dependencies that are required to run CSC-52081-EP Lab5
 
 # To have more information about the format of this file, please refer to the
 # https://pip.pypa.io/en/stable/reference/requirements-file-format/
@@ -25,4 +25,5 @@ tqdm
 
 # jupytext          # To convert Jupyter Notebooks to Python scripts
 # mypy              # For static type checking
+# pandas-stubs      # Public type stubs for pandas. C.f. https://pandas.pydata.org/docs/whatsnew/v1.5.0.html#enhancements and https://github.com/pandas-dev/pandas-stubs
 # ruff              # For code formatting and linting

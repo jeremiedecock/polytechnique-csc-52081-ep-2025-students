@@ -1,4 +1,4 @@
-# This file lists all the dependencies that are required to run the 5th lab
+# This file lists all the dependencies that are required to run CSC-52081-EP Lab5
 
 # To have more information about the format of this file, please refer to the
 # https://pip.pypa.io/en/stable/reference/requirements-file-format/
