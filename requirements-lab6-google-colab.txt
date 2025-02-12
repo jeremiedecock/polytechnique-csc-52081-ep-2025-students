@@ -43,7 +43,6 @@ moviepy~=1.0.0                       # Required by "gym.wrappers.RecordVideo"
 # OPTIONAL DEPENDENCIES #######################################################
 
 # aim
-# moviepy             # Required by the "gym.wrappers.RecordVideo" wrapper
 # optuna
 # optuna-dashboard
 # tensorboard
