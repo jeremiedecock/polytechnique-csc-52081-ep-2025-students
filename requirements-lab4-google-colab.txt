@@ -9,7 +9,7 @@
 # C.f. https://github.com/Farama-Foundation/Gymnasium/blob/main/pyproject.toml
 
 gymnasium[toy-text]~=1.0.0    # "Toy text" environments only ("FrozenLake-v1")
-moviepy~=1.0.0                # Required by "gym.wrappers.RecordVideo"
+moviepy>=1.0.0                # Required by "gym.wrappers.RecordVideo"
 
 
 # REQUIRED DEPENDENCIES #######################################################

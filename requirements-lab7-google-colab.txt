@@ -22,11 +22,13 @@
 
 # C.f. https://github.com/Farama-Foundation/Gymnasium/blob/main/pyproject.toml
 
-gymnasium[classic-control]~=1.0.0    # "Classic Control" environments only ("CartPole-v1")
-moviepy>=1.0.0                       # Required by "gym.wrappers.RecordVideo"
+gymnasium[box2d,classic-control]~=1.0.0    # "Box2D" and "Classic Control" environments only ("CartPole-v1" and "LunarLander-v2")
+moviepy>=1.0.0                             # Required by "gym.wrappers.RecordVideo"
 
 
 # REQUIRED DEPENDENCIES #######################################################
+
+cma
 
 # The following dependencies are already installed in Google Colab:
 

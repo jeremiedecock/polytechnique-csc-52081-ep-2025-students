@@ -9,7 +9,7 @@
 # C.f. https://github.com/Farama-Foundation/Gymnasium/blob/main/pyproject.toml
 
 gymnasium[toy-text]~=1.0.0    # "Toy text" environments only ("FrozenLake-v1")
-moviepy~=1.0.0                # Required by "gym.wrappers.RecordVideo"
+moviepy>=1.0.0                # Required by "gym.wrappers.RecordVideo"
 
 
 # REQUIRED DEPENDENCIES #######################################################
@@ -19,7 +19,6 @@ jupyterlab
 matplotlib
 numpy
 pandas
-pygame
 seaborn
 tqdm
 
@@ -30,3 +29,5 @@ jupytext          # To convert Jupyter Notebooks to Python scripts
 mypy              # For static type checking
 pandas-stubs      # Public type stubs for pandas. C.f. https://pandas.pydata.org/docs/whatsnew/v1.5.0.html#enhancements and https://github.com/pandas-dev/pandas-stubs
 ruff              # For code formatting and linting
+# types-seaborn     # Type hints for seaborn
+# types-tqdm        # Type hints for tqdm

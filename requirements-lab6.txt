@@ -20,7 +20,7 @@ torch
 # C.f. https://github.com/Farama-Foundation/Gymnasium/blob/main/pyproject.toml
 
 gymnasium[classic-control]~=1.0.0    # "Classic Control" environments only ("CartPole-v1")
-moviepy~=1.0.0                       # Required by "gym.wrappers.RecordVideo"
+moviepy>=1.0.0                       # Required by "gym.wrappers.RecordVideo"
 
 
 # REQUIRED DEPENDENCIES #######################################################
@@ -30,7 +30,6 @@ jupyterlab
 matplotlib
 numpy
 pandas
-pygame
 seaborn
 tqdm
 
